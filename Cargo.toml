@@ -2,5 +2,11 @@
 name = "seneca"
 version = "0.1.0"
 edition = "2024"
+description = "Kafka-compatible message broker written in Rust"
+license = "Apache-2.0"
 
 [dependencies]
+tokio = { version = "1", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt", "env-filter"] }
+serde = { version = "1.0", features = ["derive"] }
