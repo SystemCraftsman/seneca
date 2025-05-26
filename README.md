@@ -1,3 +1,5 @@
+![Seneca logo](./seneca_logo.png)
+
 # Seneca
 
 **Seneca** is a Kafka-compatible distributed message broker, written in Rust for performance, safety, and simplicity.
